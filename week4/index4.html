@@ -9,46 +9,46 @@
     <center>
     <h1><u>Registration Form</u></h1>
     </center>
-    <form action="action.php" class="form">
+    <form action="action.html" class="form" target="_blank">
 
         
     <label for="name"><b>Name :</b></label>
-    <input type="text" id="name" placeholder="Name">
+    <input type="text" id="name" placeholder="Name" required>
 
         <br><br>
 
     <label for="email"><b>Email :</b></label>
-    <input type="email" class="form" id="email" placeholder="email">
+    <input type="email" class="form" id="email" placeholder="email" required>
 
         <br><br>
 
     <label for="password"><b>Password :</b></label>
-    <input type="password"  id="password" placeholder="password">
+    <input type="password"  id="password" placeholder="password" required>
 
         <br><br>
 
     <label for="date"><b>DOB :</b></label>
-    <input type="date" id="date" placeholder="DOB">
+    <input type="date" id="date" placeholder="DOB" required>
 
         <br><br>
 
     <label for="phone"><b>Phone :</b></label>
-    <input type="phone" id="phone" placeholder="phone">
+    <input type="phone" id="phone" placeholder="phone" required>
 
         <br>
 
     <p><b>Gender :</b>
-        <input type="radio" value="male" id="male" name="gender" > 
+        <input type="radio" value="male" id="male" name="gender" required > 
         <label for="male">Male</label>
     
-        <input type="radio" value="female" id="female" name="gender">
+        <input type="radio" value="female" id="female" name="gender" required>
         <label for="female">Female</label>
     </p>
 
     <p>
         <b>Interest:</b>
             <br>
-        <input type="checkbox" value="HTML" name="interest" id="HTML" >
+        <input type="checkbox" value="HTML" name="interest" id="HTML">
         <label for="HTML">HTML</label>
             <br>
         <input type="checkbox" value="CSS" name="interest" id="CSS">
@@ -65,7 +65,7 @@
 
     <label for="course"><b>Course:</b></label>
 
-    <select name="course" id="course" placeholder="course">course
+    <select name="course" id="course" placeholder="course" required>course
         
         <option value="B.Tech">B.Tech</option>
         <option value="biotech">Biotech</option>
@@ -85,16 +85,16 @@
     <footer>
         <label><b>why do you want to join?</b></label>
         <br>
-        <textarea name="feedback" id="feedback" placeholder="enter text"></textarea>
+        <textarea name="feedback" id="feedback" placeholder="enter text" required></textarea>
 
             <center>
-                <button>
+                <button >
                     <b>Register</b>
                 </button>
             </center>
     </footer>
 
-
+ 
 
 
 
