@@ -7,40 +7,90 @@
 </head>
 <body>
     <center>
-    <h1>Registration Form</h1>
+    <h1><u>Registration Form</u></h1>
     </center>
     <form action="action.php" class="form">
 
         
-    <label for="name">Name :</label>
+    <label for="name"><b>Name :</b></label>
     <input type="text" id="name" placeholder="Name">
 
-    <br><br>
+        <br><br>
 
-    <label for="email">Email :</label>
+    <label for="email"><b>Email :</b></label>
     <input type="email" class="form" id="email" placeholder="email">
 
-    <br><br>
+        <br><br>
 
-    <label for="password">Password :</label>
+    <label for="password"><b>Password :</b></label>
     <input type="password"  id="password" placeholder="password">
 
-    <br><br>
+        <br><br>
 
-    <label for="date">DOB :</label>
+    <label for="date"><b>DOB :</b></label>
     <input type="date" id="date" placeholder="DOB">
 
-    <br><br>
+        <br><br>
 
-    <label for="phone">Phone :</label>
+    <label for="phone"><b>Phone :</b></label>
     <input type="phone" id="phone" placeholder="phone">
 
-    <br><br>
+        <br>
 
-    <p>Gender :</p>
-    <label for="gender">
-        <input type="radio" value="male" > Male
-    </label>
+    <p><b>Gender :</b>
+        <input type="radio" value="male" id="male" name="gender" > 
+        <label for="male">Male</label>
+    
+        <input type="radio" value="female" id="female" name="gender">
+        <label for="female">Female</label>
+    </p>
+
+    <p>
+        <b>Interest:</b>
+            <br>
+        <input type="checkbox" value="HTML" name="interest" id="HTML" >
+        <label for="HTML">HTML</label>
+            <br>
+        <input type="checkbox" value="CSS" name="interest" id="CSS">
+        <label for="CSS">CSS</label>
+            <br>
+        <input type="checkbox" value="JavaScript" name="interst" id="JavaScript">
+        <label for="JavaScript">JavaScript</label>
+            <br>
+        <input type="checkbox" value="Java" name="interest" id="Java">
+        <label for="Java">Java</label>
+        
+    </p>
+
+
+    <label for="course"><b>Course:</b></label>
+
+    <select name="course" id="course" placeholder="course">course
+        
+        <option value="B.Tech">B.Tech</option>
+        <option value="biotech">Biotech</option>
+        <option value="AI/ML">AI/ML</option>
+        <option value="BCA">BCA</option>
+
+    </select>
+
+        <br><br>
+
+    <footer>
+        <label><b>why do you want to join?</b></label>
+        <br>
+        <textarea name="feedback" id="feedback" placeholder="enter text"></textarea>
+    </footer>
+
+
+
+
+
+
+
+
+
+
 
 
 
