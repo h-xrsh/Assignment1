@@ -1,0 +1,52 @@
+.status{
+    display:flex;
+    height:50px;
+    border:1px solid black;
+    align-items:center;
+    background-color:#0b0b49;
+    color:aliceblue;
+    justify-content:space-between;
+    margin-left:0px;
+    flex-wrap:wrap;
+    
+}
+
+#background{
+    background-color:#6d6ddd;
+    height:300px;
+    
+}
+
+button{
+    height:30px;
+    border:1px solid black;
+    border-radius:20px;
+    background-color:rgb(176, 216, 203);
+    
+    
+    
+}
+
+a{
+    color:aliceblue;
+    text-decoration:none;
+    
+}
+
+#Home{
+    margin-right:10px;
+}
+
+#Courses{
+    margin-right:10px;
+}
+
+.mid{
+    display:flex;
+    justify-content:space-between;
+    margin:5px;
+}
+
+body{
+    background-color:aliceblue;
+}
