@@ -21,10 +21,21 @@ button{
     height:30px;
     border:1px solid black;
     border-radius:20px;
-    background-color:rgb(176, 216, 203);
-    
-    
-    
+    background-color:rgb(176, 216, 203); 
+    box-shadow:2px 2px 2px;
+}
+
+#devtech{
+    color:purple;
+}
+
+h1{
+    color:aliceblue;
+    margin-bottom:0px;
+}
+
+p{
+    color:aliceblue;
 }
 
 a{
@@ -33,19 +44,13 @@ a{
     
 }
 
-#Home{
-    margin-right:10px;
-}
-
-#Courses{
-    margin-right:10px;
-}
-
 .mid{
     display:flex;
+    gap:10px;
     justify-content:space-between;
     margin:5px;
 }
+
 
 body{
     background-color:aliceblue;
