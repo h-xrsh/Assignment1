@@ -34,3 +34,34 @@ body {
     box-shadow: 0 4px 10px rgba(20, 35, 63, 0.18);
 }
 
+.dashboard-header {
+    min-height: 122px;
+    padding: 12px;
+}
+
+.dashboard-header h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.menu {
+    grid-column: 1;
+    grid-row: 2 / span 2;
+    min-height: 207px;
+    padding: 12px;
+    border-radius: 8px;
+    background: #dce7ff;
+    box-shadow: 0 3px 8px rgba(38, 63, 105, 0.12);
+}
+
+.menu h2 {
+    margin: 0 0 6px;
+    font-size: 17px;
+}
+
+.menu ul {
+    margin: 0;
+    padding-left: 16px;
+    line-height: 1.65;
+}
+
