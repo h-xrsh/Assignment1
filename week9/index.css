@@ -22,3 +22,53 @@ body {
 	margin: 0;
 }
 
+a {
+	color: inherit;
+}
+
+.site-header {
+	position: relative;
+	z-index: 1;
+	color: #ffffff;
+	background: #12213d;
+}
+
+.header-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: min(100% - 48px, 1120px);
+	min-height: 68px;
+	margin: 0 auto;
+}
+
+.brand {
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.site-header nav {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.site-header nav a {
+	color: #e7edff;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.site-header nav a:hover,
+.site-header nav a:focus-visible {
+	color: #9db8ff;
+}
+
+.hero {
+	padding: 48px 24px 42px;
+	color: #ffffff;
+	text-align: center;
+	background: #2f59e8;
+}
+
