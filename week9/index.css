@@ -149,3 +149,54 @@ a {
 	line-height: 1.45;
 }
 
+.site-footer {
+	padding: 18px 24px;
+	color: #dce5ff;
+	background: #12213d;
+	text-align: center;
+}
+
+.site-footer p {
+	margin: 0;
+	font-size: 13px;
+}
+
+.site-footer span {
+	padding: 0 5px;
+	color: #83a0ff;
+}
+
+@media (max-width: 600px) {
+	.header-inner {
+		flex-direction: column;
+		justify-content: center;
+		gap: 10px;
+		width: 100%;
+		padding: 15px 20px;
+	}
+
+	.site-header nav {
+		gap: 24px;
+	}
+
+	.hero {
+		padding: 32px 16px 26px;
+	}
+
+	.hero h1 {
+		max-width: 360px;
+		margin: 0 auto;
+		font-size: 30px;
+	}
+
+	.hero-copy {
+		margin: 8px 0 18px;
+		font-size: 14px;
+	}
+
+	.hero-image {
+		aspect-ratio: 1.55 / 1;
+		border-radius: 9px;
+	}
+
+}
