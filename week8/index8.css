@@ -104,3 +104,44 @@ body {
     overflow-wrap: anywhere;
 }
 
+.dashboard-footer {
+    display: grid;
+    min-height: 112px;
+    place-items: start center;
+    padding: 12px;
+}
+
+@media (max-width: 680px) {
+    body {
+        padding: 12px;
+    }
+
+    .dashboard {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .dashboard-header,
+    .menu,
+    .metrics,
+    .dashboard-footer {
+        grid-column: 1;
+        grid-row: auto;
+    }
+
+    .dashboard-header {
+        min-height: 100px;
+    }
+
+    .menu {
+        min-height: auto;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 28px;
+    }
+
+}
+
+
