@@ -106,3 +106,46 @@ a {
 	box-shadow: 0 12px 30px rgba(13, 30, 82, 0.25);
 }
 
+.benefits {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 16px;
+	width: min(100% - 48px, 920px);
+	margin: 28px auto 48px;
+}
+
+.benefit {
+	min-height: 142px;
+	padding: 20px;
+	border: 1px solid #e6eaf5;
+	border-radius: 10px;
+	background: #ffffff;
+	box-shadow: 0 5px 16px rgba(28, 48, 91, 0.07);
+	text-align: center;
+}
+
+.benefit-icon {
+	display: grid;
+	width: 32px;
+	height: 32px;
+	margin: 0 auto 10px;
+	place-items: center;
+	border-radius: 9px;
+	color: #244ed7;
+	background: #eaf0ff;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.benefit h2 {
+	margin: 0 0 5px;
+	font-size: 16px;
+}
+
+.benefit p {
+	margin: 0;
+	color: #59657b;
+	font-size: 14px;
+	line-height: 1.45;
+}
+
